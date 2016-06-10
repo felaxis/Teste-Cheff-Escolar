@@ -1,0 +1,570 @@
+/* verde topo: 85C861 */
+/* cinza topo: AAAAAA */
+body {
+	margin: 0;
+	font-family: Verdana;
+	background: #D9D9D9;
+}
+
+header {
+	margin: 0 auto;
+}
+    header div.topo {
+	    display: inline-block;
+	    width: 100%;
+	    background: #85C861;
+	    border: solid;
+	    border-left: none;
+	    border-right: none;
+	    border-top-color: #A7D58D;
+	    border-bottom-color: #AAAAAA;
+	    border-width: 2px;
+    }
+    header div.topo p {
+	    margin: 0;
+	    margin-left: 2%;
+	    padding: 0.3%;
+	    display: inline-block;
+	    font-size: 15px;
+	    color: white;
+    }
+	header div p.direito {
+		width: 59%;
+		display: inline-block;
+		text-align: right;
+	}
+    header div.second {
+	    display: inline-block;
+	    width: 100%;
+	    background: #F2F2F2;
+    }
+	header div.second figure {
+		display: inline-block;
+		margin-left: 3%;
+		width: 15%;
+	}
+	    header div.second figure img {
+		    display: inline-block;
+		    width: 100%;
+	    }
+	    header div.second article {
+		    display: inline-block;
+
+	    }
+		header div.second article p {
+			text-align: center;
+			color: #85C861;
+			font-size: 40px;
+			margin: 0;
+		}
+
+menu{
+	display: inline-block;
+	width: 55%;
+	margin: 0;
+}
+    menu ul {
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+	menu ul li {
+	display: inline-block;
+	text-align: center;
+	width: 23%;
+}
+	    menu ul li img {
+	width: 25%;
+}
+	    menu ul li p {
+	font-size: 15px;
+	margin: 0;
+	color: #85C861;
+	font-weight: bold;
+}
+
+main {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-radius: 8px;
+	background: white;
+	border: 0 solid;
+	border-bottom-width: 3px;
+	border-color: #AAAAAA;
+}
+
+h3 {
+	display: inline-block;
+	padding: 2%;
+	padding-bottom: 0;
+	padding-top: 0;
+	font-weight: normal;
+	width: 60%;
+	font-size: 1.8em;
+	color: rgb(251,176,23); 
+}
+
+p.genero-alimenticio {
+	margin: 0;
+}
+p.dia {
+	display: inline-block;
+}
+p.dia-letivo {
+	display: inline-block;
+}
+p.menu-de-saldo {
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 0;
+	font-size: 20px;
+}
+p.mes-e-ano-seletor {
+		font-size: 30px;
+		vertical-align: middle;	
+		padding-left: 25px; 
+	}
+p#genero-alimenticio {
+	background: rgb(251,176,23);			
+	color: white;
+
+}
+p#fornecedor {
+	color: #AAAAAA;
+
+}
+
+hr {
+	width: 99%;
+	size: 1px;
+	color: #AAAAAA;
+}
+
+section {
+	padding: 2.5%;
+}
+    section.primeira {
+
+
+}
+    section.tipo-de-saldo {
+	margin-left: 11.4%;
+	display: inline-block;
+	border: 1px solid;
+	padding: 3px;
+	border-color: #AAAAAA;
+	border-radius: 5px;
+}
+    section.topo-seletor {
+	background: white;
+	width: 95%;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 0;
+	margin-top: 2%;
+}	
+	section.topo-seletor div.esquerda-do-seletor {
+	display: inline-block;
+	border-right: 1px solid;
+	border-color: #AAAAAA;
+}
+	section.topo-seletor div.direita-do-seletor {
+	display: inline-block;
+	background: #85C861;
+	position: relative;
+	left: 11.8%;
+	width: 14%;
+	
+}
+	    sectin.topo-seletor div.direita-do-seletor p {
+		display: block;
+	}
+	section.topo-seletor p {
+	color: rgb(251,176,23);
+
+}
+	    section.topo-seletor p.seta {
+	vertical-align: middle;
+	font-size: 25px;
+	word-spacing: 35px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+	section.topo-seletor menu.menu-para-seletor {
+	padding: 0;
+}
+	    section.topo-seletor menu.menu-para-seletor ul {
+	margin: 0;
+	vertical-align: middle;
+	padding: 0;
+}
+		    menu.menu-para-seletor ul li img {
+		display: inline;
+		width: 15%;
+	}
+		    menu.menu-para-seletor ul li p {
+		display: block;
+	}
+
+
+    section.buscador-saldo-dos-generos {
+	padding: 0;
+	margin-left: 0.8%;
+}
+	section.buscador-saldo-dos-generos form {
+	display: inline-block;
+	margin-top: 0;
+	width: 50%;
+}
+	    section.buscador-saldo-dos-generos form input#pesquisa-saldo-dos-generos{
+	background: rgb(238,238,238);
+}
+	section.buscador-saldo-dos-generos img {
+	width: 1%;
+}
+	section.buscador-saldo-dos-generos input{
+	width: 100%;
+}
+    section.semestre-correspondente {
+	margin-left: 10px;
+	padding: 0;
+	margin-top: 2%;
+	margin-left:2.5%;
+
+
+}
+	section.semestre-correspondente menu {
+	border: 0 solid;
+	border-bottom-width: 3px;
+	border-color: #AAAAAA;
+	border-radius: 5px;
+	background: white;
+	width: 97.8%;
+}
+	main section h2 {
+	width: 101.8%;				
+	margin: 0;
+	margin-left: -36px;
+	margin-top: -36px;
+	background: #EFEFEF;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #9D9A9A;
+	border-top-right-radius: 5px;
+}
+	section p {
+	display: inline-block;
+}
+	
+
+}
+section menu p.first {
+	margin: 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: -40px;
+	padding: 17px;
+	background-color: rgb(251,176,23);
+	color: white;
+}
+
+section form {
+	margin-top: 1.5%;
+}
+section form p {
+	display: inline-block;
+	color: #85C861;
+	font-size: 12px;
+	width: 48.2%;
+	margin-bottom: 0;
+}
+section form p.vinteecinco {
+	width: 25.5%;
+
+
+}
+section form input {
+	display: inline-block;
+	border: 3px solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 5px;
+	width: 430px;
+	height: 32px;
+}
+
+section form input.esquerdo {
+	width: 48%;
+}
+section form input.direito {
+	width: 25%;
+}
+section form input.lateral {
+	width: 50.8%;
+}
+section form input.pesquisa-saldo-dos-generos
+section.endereco form input.menor-a-direita {
+	width: 16%;
+}
+
+
+section form p.direito-menor {
+	width: 16.5%;
+}
+section form p.municipio {
+	width: 23.2%;
+}
+section form p.estado {
+	width: 68%;
+}
+
+
+section form select.municipio {
+	display: inline-block;
+	width: 30%;
+	border: 3px solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 5px;
+	width: 400px;
+	height: 38px;
+} 
+section form select.tipo-de-unidade {
+	display: inline-block;
+	width: 30%;
+	border: 3px solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 5px;
+	width: 48%;
+	height: 38px;
+}
+section form p.unidade-direita {
+	width: 25.2%;
+}
+section form input.cpf-do-responsavel {
+	width: 49.9%;
+}
+
+section form select.banco {
+	display: inline-block;
+	width: 30%;
+	border: 3px solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 5px;
+	width: 835px;
+	height: 38px;
+}
+
+main button {
+	position: relative;
+	display: inline-block;
+	left: 46%;
+	padding: 14px;
+	font-size: 18px;
+	color: white;
+	background: #6FBE44;
+	border-width: 0;
+	border-radius: 5px;
+	border-bottom-width: 2px;
+	margin-bottom: 3%;
+}	
+main table {
+	width: 100%;
+}
+main table.mes {
+	border-collapse: collapse;
+
+}
+main table.mes tr td{
+	border: 1px solid;
+	border-color: #AAAAAA;
+	border-right: none;
+
+}
+main table.mes tr:nth-child(n+2) {
+	border: 1px solid;
+	border-left: none;
+	border-right: none;
+
+}
+main table.mes tr.dia-da-semana td {
+	background: rgb(111,190,68);
+	padding: 0.8%;
+	text-align: center;
+	width: 5%;
+	border: none;
+	color: white;
+
+}
+main table.mes tr.dia-da-semana td:first-child {
+	border-top-left-radius: 5px;
+}
+main table.mes tr.dia-da-semana td:last-child {
+	border-top-right-radius: 5px;
+}
+main table.mes tr td {
+	color: rgb(154,205,50);
+}
+main table.mes tr td:hover {
+	background: rgb(234,245,228);
+}
+main table.mes tr td{
+	size: 400px;
+}
+table.mes tr td {
+
+	vertical-align: super;
+}
+table.mes tr td p {
+	margin-left: 6px;
+	font-size: 16px;
+}
+table.mes tr td.dia {
+	font-weight: bold;
+}
+table.mes tr td p.dia-letivo {
+	font-size: 14px;
+}
+table.mes tr td p.blue {
+	color: rgb(100,149,237);
+}
+table.mes tr td p.orange {
+	color: rgb(255,140,0);
+}
+table.mes tr td p.green {
+	color: rgb(154,205,50);
+}
+main table.tabela-generos-alimenticios tr td img#icone-adicionar {
+	width: 1.2%;
+
+}
+table.tabela-generos-alimenticios {
+	border-collapse: collapse;
+	width: 98%;
+	margin-left: 0.8%;
+	margin-top: 0.4%;
+
+}	
+table.tabela-generos-alimenticios tr td {
+	padding: 0.7%;
+}
+
+table.tabela-generos-alimenticios tr td#white {
+	color: white;
+}
+
+table.tabela-generos-alimenticios tr:first-child {
+	background: #85C861;
+	border-bottom: none;
+	color: white;
+}
+
+
+table.tabela-generos-alimenticios tr td:nth-child(n) {
+	border: 0 solid;
+	border-bottom: 1px;
+	border-style: dashed;
+	border-color: #AAAAAA
+	;
+}
+
+
+table.tabela-generos-alimenticios tr td:nth-child(4n+2) {
+
+	border-left: 1px;
+	border-right: 1px;
+	border-style: dashed;
+	border-color: #AAAAAA;
+	text-align: center;
+	width: 10%;
+	color: #85C861;
+}		
+table.tabela-generos-alimenticios tr td:nth-child(4n+3) {
+
+	border-right: 1px;
+	border-style: dashed;
+	border-color: #AAAAAA;
+	text-align: center;
+	width: 10%;
+	color: #85C861;
+}
+table.tabela-generos-alimenticios tr td:nth-child(4n+4) {
+	text-align: center;
+	width: 10%;
+	color: #85C861;
+}
+}
+table.tabela-generos-alimenticios td {
+	padding: 15px;
+}
+
+footer img.logo {
+	position: relative;
+	left: 42.2%;
+	margin-top: 35px;
+	width: 11%;
+	margin-bottom: 80px;
+}
+footer figure {
+	position: fixed;
+	display: inline-block;
+	margin: -3px;
+	padding: 5px;
+	background: #85C861;
+
+}
+footer figure p {
+	display: inline-block;
+	color: white;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 5px;
+}
+footer figure img {
+	width: 1.5em;
+	padding: 5px;
+	margin: 0	;	
+}
+footer figure.minimal {
+	width: 2%;
+	height: 2%;
+}
+footer figure.fixed-01 {
+	border: 0 solid;
+	border-top-left-radius: 8px;
+	position: fixed;
+	bottom: 0;
+	right: 142px;
+}
+footer figure.fixed-02 {
+	position: fixed;
+	bottom: 0;
+	right: 90px;
+
+}
+footer figure.fixed-03 {
+	border: 0 solid;
+	border-top-right-radius: 8px;
+	position: fixed;
+	bottom: 0;
+	right: 38px;
+}
+footer figure img.img-fixed {
+	width: 31px;
+}
+
+
+
